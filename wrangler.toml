@@ -1,0 +1,8 @@
+name = "hridoytv-premium"
+main = "worker.js"
+compatibility_date = "2025-01-01"
+
+# যদি KV ব্যবহার করো, নিচের লাইন যোগ করো
+kv_namespaces = [
+  { binding = "HRIDOY_CODES", id = "your_kv_namespace_id" }
+]
